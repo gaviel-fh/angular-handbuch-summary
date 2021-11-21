@@ -24,6 +24,7 @@ export class MyComponent {
 #### Der Standardfall: ViewEncapsulation.Emulated
 
 Diese Strategie sorgt, dafür, dass Angular die Kapselung der Styles für den Browser emuliert. Dies passiert, indem Angular den Tags noch ein Attribut hinzufügt, was diese eindeutig identifiziert.
+
 ![ViewEncapsulation.Emulated](./images/ViewEncapsulation_Emulated.png)
 
 Der Selektor trifft somit nur noch auf div-Tags zu, die zusätzlich das Attribut \_ngcontent-lou-14 besitzen.
